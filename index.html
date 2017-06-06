@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html data-ng-app="chocolate">
+  <head>
+    <title>Chocolate City</title>
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.js"></script>
+    <script src="./public/js/app.js"></script>
+
+  </head>
+  <body>
+<header>
+<h1>What Happened 2 Chocolate City</h1>
+</header>
+<nav>
+    <div>
+<a href="#">About</a>
+<a data-ui-sref="chocolateDirector">Meet the Director</a>
+<a data-ui-sref="chocolateCharacter">Character Spotlight</a>
+<a data-ui-sref="chocolateTrailer">Trailer</a>
+<a data-ui-sref="chocolatePartners">Partners</a>
+<a data-ui-sref="chocolateContact">Contact Us</a>
+<a data-ui-sref="chocolateMain">WH2CC</a>
+<a data-ui-sref="chocolateGallery">Gallery</a>
+</div>
+</nav>
+        <main data-ui-view></main>
+  </body>
+</html>
