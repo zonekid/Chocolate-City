@@ -36,7 +36,7 @@
         function RouterFunction($stateProvider) {
             $stateProvider
                 .state("chocolateMain", {
-                    url: "/welcome",
+                    url: "/main",
                     templateUrl: "public/js/ng-views/main.html",
                     controller: "ChocolateMainController",
                     controllerAs: "vm"
