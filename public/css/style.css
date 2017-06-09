@@ -397,7 +397,7 @@ margin-top: 60px;
     opacity: 1.0;
 }
 
-.gallery1 {
+.galleryone {
     background-image: url(/public/assets/blk-white.png);
     min-width: 400px;
     min-height: 250px;
@@ -407,7 +407,7 @@ margin-top: 60px;
     margin: 5px;
 }
 
-.gallery2 {
+.gallerytwo {
     background-image: url(/public/assets/chuck-block.png);
     min-width: 400px;
     min-height: 250px;
@@ -417,7 +417,7 @@ margin-top: 60px;
     margin: 5px;
 }
 
-.gallery3 {
+.gallerythree {
     background-image: url(/public/assets/love-block.png);
     min-width: 400px;
     min-height: 250px;
@@ -427,7 +427,7 @@ margin-top: 60px;
     margin: 5px;
 
 }
-.gallery4 {
+.galleryfour {
     background-image: url(/public/assets/old-character.png);
     min-width: 400px;
     min-height: 250px;
@@ -437,7 +437,7 @@ margin-top: 60px;
     margin: 5px;
 }
 
-.gallery5 {
+.galleryfive {
     background-image: url(/public/assets/young-character.png);
     min-width: 400px;
     min-height: 250px;
@@ -447,7 +447,7 @@ margin-top: 60px;
     margin: 5px;
 }
 
-.gallery6 {
+.gallerysix {
     background-image: url(/public/assets/art-store.png);
     min-width: 400px;
     min-height: 250px;
