@@ -79,7 +79,7 @@
                 })
                 .state("chocolateAction", {
                     url: "/action",
-                    templateUrl: "public/js/ng-views/gallery.html",
+                    templateUrl: "public/js/ng-views/action.html",
                     controller: "ChocolateActionController",
                     controllerAs: "vm"
                 })

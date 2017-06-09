@@ -133,7 +133,7 @@ text-decoration: none;
     background-color: black;
 }
 
-video {
+.block {
     position: absolute;
     top: 350px;
     left: 50%;
@@ -187,7 +187,7 @@ font-style: bold;
 font-size: 26px;
 }
 
-footer{
+footer {
 /* Rectangle 3: */
 position: relative;
 background: #232222;
@@ -221,9 +221,12 @@ border: 1px solid #736C6C;
     /* MEET THE DIRECTOR: */
 font-family: HelveticaNeue-Medium;
 font-size: 72px;
-color: #F9F9F9;
+color: white;
 letter-spacing: 2.9px;
 text-align: center;
+position: absolute;
+bottom: 450px;
+left: 300px;
 
 }
 
@@ -267,7 +270,304 @@ margin-left: 10px;
 }
 
 .list-rest a:hover {
-border: solid black;
+border: solid #959191;
 /*border-radius: 100px;*/
 width: 100px;
+}
+
+.mural {
+    position: relative;
+    width: 100%;
+    margin-top: -300px;
+    z-index: -1;
+
+}
+
+.take {
+    font-family: HelveticaNeue-Medium;
+    font-size: 72px;
+    color: white;
+    letter-spacing: 2.9px;
+    text-align: center;
+    position: absolute;
+    bottom: 450px;
+    left: 400px;
+}
+
+.join {
+    /* Rectangle 5 Copy 2: */
+background: #42B89E;
+border: 3px solid #42B89E;
+border-radius: 100px;
+text-align: center;
+position: absolute;
+bottom: 400px;
+left: 550px;
+font-size: 30px;
+/* JOIN US: */
+font-family: HelveticaNeue-Medium;
+color: #FFFFFF;
+letter-spacing: 2px;
+width: 200px;
+}
+
+.join:hover {
+    background-color: white;
+    color: #42B89E;
+}
+
+.inception {
+    /* From its inception,: */
+font-family: Palatino-Roman;
+font-size: 23px;
+color: #000000;
+letter-spacing: 1px;
+text-align: center;
+width: 75%;
+margin-left: 170px;
+}
+
+.donate {
+    /* DONATE: */
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    color: #4A4A4A;
+    letter-spacing: 2.96px;
+}
+
+.your-donations {
+    /* Your donations will: */
+font-family: Palatino-Roman;
+font-size: 20px;
+color: #000000;
+letter-spacing: 1px;
+}
+
+.paypal{
+    width: 80px;
+}
+
+
+.donate-info {
+    text-align: center;
+    width: 30%;
+    margin-left: 100px;
+}
+
+.list-serv {
+    text-align: center;
+    width: 30%;
+    float: right;
+    margin-right: 100px;
+    margin-top: -265px;
+}
+
+.join-serv {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    color: #4A4A4A;
+    letter-spacing: 2.96px;
+}
+
+.join-us:hover {
+        background-color: white;
+        color: black;
+}
+
+.join-us {
+    /* Rectangle 5 Copy 2: */
+background: #000000;
+border: 3px solid #000000;
+border-radius: 100px;
+color: white;
+width: 100px;
+margin-left: 130px;
+margin-top: 60px;
+}
+
+.whole-action {
+    margin-bottom: 50px;
+}
+
+.hst {
+    position: relative;
+    width: 100%;
+    margin-top: -300px;
+    z-index: -1;
+    opacity: 1.0;
+}
+
+.gallery1 {
+    background-image: url(/public/assets/blk-white.png);
+    min-width: 400px;
+    min-height: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-grow: 1;
+    margin: 5px;
+}
+
+.gallery2 {
+    background-image: url(/public/assets/chuck-block.png);
+    min-width: 400px;
+    min-height: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-grow: 1;
+    margin: 5px;
+}
+
+.gallery3 {
+    background-image: url(/public/assets/love-block.png);
+    min-width: 400px;
+    min-height: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-grow: 1;
+    margin: 5px;
+
+}
+.gallery4 {
+    background-image: url(/public/assets/old-character.png);
+    min-width: 400px;
+    min-height: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-grow: 1;
+    margin: 5px;
+}
+
+.gallery5 {
+    background-image: url(/public/assets/young-character.png);
+    min-width: 400px;
+    min-height: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-grow: 1;
+    margin: 5px;
+}
+
+.gallery6 {
+    background-image: url(/public/assets/art-store.png);
+    min-width: 400px;
+    min-height: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-grow: 1;
+    margin: 5px;
+}
+
+
+.gallery-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    color: #4A4A4A;
+    letter-spacing: 2.96px;
+}
+
+.gallery-images {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+}
+
+.form{
+margin-left: 400px;
+}
+
+
+.first-contact {
+    /* Rectangle 6: */
+background: rgba(239,239,239,0.77);
+border: 2px solid #9B9B9B;
+width: 150px;
+height: 20px;
+}
+.second-contact {
+    background: rgba(239,239,239,0.77);
+    border: 2px solid #9B9B9B;
+    width: 150px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.email, .subject {
+    /* Rectangle 6 Copy 2: */
+background: rgba(239,239,239,0.77);
+border: 2px solid #9B9B9B;
+height: 30px;
+width: 316px;
+}
+
+.message {
+    /* Rectangle 6 Copy 4: */
+background: rgba(239,239,239,0.77);
+border: 2px solid #9B9B9B;
+height: 120px;
+width: 316px;
+}
+
+.contact-name {
+    display: flex;
+}
+
+.last-name {
+    margin-left: 166px;
+}
+.first-name {
+    margin-bottom: -18px;
+}
+
+.contact {
+    margin-left: 400px;
+    /* CONTACT US: */
+font-family: HelveticaNeue-Light;
+font-size: 32px;
+color: #000000;
+letter-spacing: 2.96px;
+}
+
+.contact-space {
+    margin-top: -190px;
+    margin-left: 60px;
+    margin-bottom: 40px;
+
+
+}
+
+.construction {
+    position: relative;
+    width: 100%;
+    margin-top: -300px;
+    z-index: -1;
+}
+
+.contact-us2 {
+
+        font-family: HelveticaNeue-Medium;
+        font-size: 72px;
+        color: white;
+        letter-spacing: 2.9px;
+        text-align: center;
+        position: absolute;
+        bottom: 450px;
+        left: 400px;
+}
+.submit {
+    /* Rectangle 5 Copy 2: */
+background: #000000;
+border: 3px solid #000000;
+border-radius: 100px;
+color: white;
+width: 90px;
+margin-left: 475px;
+padding: 7px;
+font-family: 'Playfair Display', serif;
+margin-top: 30px;
+font-size: 18px;
+}
+
+.submit:hover {
+    background-color: white;
+    color: black;
 }
