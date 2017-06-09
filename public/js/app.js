@@ -26,6 +26,10 @@
             .controller("ChocolateGalleryController", [
                 ChocolateGalleryControllerFunction
             ])
+            .controller("ChocolateActionController", [
+                ChocolateActionControllerFunction
+            ])
+
 
 
 
@@ -71,6 +75,12 @@
                     url: "/gallery",
                     templateUrl: "public/js/ng-views/gallery.html",
                     controller: "ChocolateGalleryController",
+                    controllerAs: "vm"
+                })
+                .state("chocolateAction", {
+                    url: "/action",
+                    templateUrl: "public/js/ng-views/gallery.html",
+                    controller: "ChocolateActionController",
                     controllerAs: "vm"
                 })
 

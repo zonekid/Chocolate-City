@@ -1,29 +1,50 @@
 <!DOCTYPE html>
 <html data-ng-app="chocolate">
   <head>
+<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans|Arapey|Droid+Sans|PT+Serif|Playfair+Display|Raleway" rel="stylesheet">
     <title>Chocolate City</title>
-    <link rel="stylesheet" href="/assets/css/styles.css" />
+    <link rel="stylesheet" href="./public/css/style.css" />
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.js"></script>
     <script src="./public/js/app.js"></script>
 
   </head>
   <body>
+
 <header>
-<h1>What Happened 2 Chocolate City</h1>
+<div class="heading">
+<h3 class="what">What Happened 2</h3>
+<h1 class="chocolate">Chocolate City</h1>
+</div>
 </header>
 <nav>
-    <div>
-<a href="#">About</a>
-<a data-ui-sref="chocolateDirector">Meet the Director</a>
-<a data-ui-sref="chocolateCharacter">Character Spotlight</a>
-<a data-ui-sref="chocolateTrailer">Trailer</a>
-<a data-ui-sref="chocolatePartners">Partners</a>
-<a data-ui-sref="chocolateContact">Contact Us</a>
-<a data-ui-sref="chocolateMain">WH2CC</a>
-<a data-ui-sref="chocolateGallery">Gallery</a>
+    <div class="nav-items">
+<a data-ui-sref="chocolateMain" class="home">Home</a>
+<div class="dropdown">
+  <a class="about">About</a>
+  <div class="dropdown-content">
+    <a data-ui-sref="chocolateDirector">Meet the Director</a>
+    <a data-ui-sref="chocolateCharacter">Character Spotlight</a>
+    <a data-ui-sref="chocolateTrailer">Trailer</a>
+    <a data-ui-sref="chocolatePartners">Partners</a>
+    <a data-ui-sref="chocolateContact">Contact Us</a>
+  </div>
+</div>
+<a data-ui-sref="chocolateGallery" class="gallery">Gallery</a>
+<a data-ui-sref="chocolateAction" class="take-action">Take Action</a>
 </div>
 </nav>
+
+
         <main data-ui-view></main>
+
+<footer>
+    <div class="social">
+
+
+<img src="public/assets/facebook-logo.jpg" class="facebook" alt="">
+<img src="public/assets/twitter-logo.jpg" class= "twitter" alt="">
+    </div>
+</footer>
   </body>
 </html>

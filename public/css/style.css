@@ -1,0 +1,273 @@
+.heading{
+    /* PARTNERS: */
+margin-top: 30px;
+
+}
+
+.what {
+    /* WHAT HAPPENED 2: */
+font-family: HelveticaNeue-Medium;
+font-size: 18px;
+color: #FFFFFF;
+letter-spacing: 7px;
+margin-bottom: -28px;
+
+}
+
+.chocolate {
+    /* CHOCOLATE CITY: */
+    /* CHOCOLATE CITY: */
+    font-family: HelveticaNeue-Bold;
+    font-size: 40px;
+    color: #FFFFFF;
+    letter-spacing: 2.25px;
+
+
+}
+
+
+
+nav {
+    /* GALLERY: */
+    font-family: HelveticaNeue-Medium;
+    font-size: 20px;
+    color: #FFFFFF;
+    letter-spacing: 1.05px;
+    float: right;
+    display: block;
+    padding: 8px;
+    margin-top: -75px;
+    text-decoration: none;
+}
+
+.nav-items a {
+    color: #FFFFFF;
+    padding: 10px;
+}
+
+
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    font-family: HelveticaNeue-Medium;
+    font-size: 20px;
+    color: #black;
+    letter-spacing: 1.05px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    /* PARTNERS: */
+font-family: HelveticaNeue-Medium;
+font-size: 11px;
+color: #F9F9F9;
+letter-spacing: 2.9px;
+}
+
+.dropdown-content a:hover {
+border: solid;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    /* Rectangle 4: */
+background: #212020;
+border: 1px solid #212020;
+/* Rectangle 4: */
+
+}
+
+.dropdown:hover .about {
+    background-color: black;
+    border-radius: 100px;
+    padding: 6px;
+}
+
+.home {
+    text-decoration: none;
+}
+
+.home:hover {
+    background-color: black;
+    border-radius: 100px;
+    padding: 6px;
+}
+
+.gallery {
+    text-decoration: none;
+}
+
+.gallery:hover {
+    background-color: black;
+    border-radius: 100px;
+    padding: 6px;
+}
+.take-action {
+    /* Rectangle 2: */
+border: 1px solid #FFFFFF;
+border-radius: 20px;
+font-family: HelveticaNeue-Medium;
+font-size: 20px;
+color: black;
+letter-spacing: 1.05px;
+padding: 8px;
+text-decoration: none;
+
+}
+
+.take-action:hover {
+    background-color: black;
+}
+
+video {
+    position: absolute;
+    top: 350px;
+    left: 50%;
+    /*min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;*/
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    /*background-size: cover;*/
+    transition: 1s opacity;
+    opacity: 1.0;
+}
+
+
+
+
+.logo {
+margin-top: 80px;
+margin-left: 500px;
+height: 400px;
+}
+
+.landing-info  {
+margin-top: 150px;
+
+}
+
+.uncovering {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 48px;
+    color: #000000;
+    letter-spacing: 0;
+    font-style: normal;
+    text-align: center;
+}
+
+.landing-essay {
+    /* What Happened 2 Choc: */
+font-family: HelveticaNeue-Medium;
+font-size: 20px;
+color: #000000;
+line-height: 30px;
+width: 800px;
+margin-left: 240px;
+}
+
+#chocolate-city {
+font-family: HelveticaNeue-Bold;
+font-style: bold;
+font-size: 26px;
+}
+
+footer{
+/* Rectangle 3: */
+position: relative;
+background: #232222;
+border: 1px solid #736C6C;
+}
+
+.social {
+    margin-left: 550px;
+    padding: 20px;
+}
+.twitter{
+    max-width: 70px;
+    max-height: 70px;
+    padding-left: 10px;
+}
+
+.facebook{
+    max-width: 70px;
+    max-height: 70px;
+    padding-right: 10px;
+}
+
+.tae {
+    position: relative;
+    width: 100%;
+    margin-top: -300px;
+    z-index: -1;
+}
+
+.meet {
+    /* MEET THE DIRECTOR: */
+font-family: HelveticaNeue-Medium;
+font-size: 72px;
+color: #F9F9F9;
+letter-spacing: 2.9px;
+text-align: center;
+
+}
+
+.tae-name {
+    font-size: 24px;
+
+}
+
+.director-info {
+    font-family: HelveticaNeue;
+    font-size: 16px;
+    color: #000000;
+    line-height: 30px;
+    width: 700px;
+    margin-left: 330px;
+    margin-top: -170px;
+}
+
+.list {
+    margin-top: 60px;
+}
+
+.list-about {
+    /* About: */
+font-family: 'Playfair Display', serif;
+font-size: 25px;
+color: #000000;
+letter-spacing: 0;
+margin-left: 10px;
+
+}
+
+.list-rest {
+    /* CHARACTER SPOTLIGHT: */
+    font-family: HelveticaNeue-Medium;
+    font-size: 18px;
+    color: #959191;
+    letter-spacing: 1.2px;
+    padding: 12px;
+    list-style-type: none
+}
+
+.list-rest a:hover {
+border: solid black;
+/*border-radius: 100px;*/
+width: 100px;
+}
