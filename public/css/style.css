@@ -93,7 +93,7 @@ border: 1px solid #212020;
 
 .dropdown:hover .about {
     background-color: black;
-    border-radius: 100px;
+    /*border-radius: 100px;*/
     padding: 6px;
 }
 
@@ -103,7 +103,7 @@ border: 1px solid #212020;
 
 .home:hover {
     background-color: black;
-    border-radius: 100px;
+    /*border-radius: 100px;*/
     padding: 6px;
 }
 
@@ -113,7 +113,7 @@ border: 1px solid #212020;
 
 .gallery:hover {
     background-color: black;
-    border-radius: 100px;
+    /*border-radius: 100px;*/
     padding: 6px;
 }
 .take-action {
@@ -134,27 +134,21 @@ text-decoration: none;
 }
 
 .block {
-    position: absolute;
-    top: 350px;
-    left: 50%;
-    /*min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;*/
-    z-index: -100;
-    transform: translateX(-50%) translateY(-50%);
-    /*background-size: cover;*/
-    transition: 1s opacity;
-    opacity: 1.0;
+    position: relative;
+    width: 100%;
+    margin-top: -300px;
+    z-index: -1;
 }
 
 
 
 
 .logo {
-margin-top: 80px;
-margin-left: 500px;
-height: 400px;
+text-align: center;
+position: absolute;
+bottom: 300px;
+left: 500px;
+height: 350px;
 }
 
 .landing-info  {
@@ -345,6 +339,7 @@ letter-spacing: 1px;
 
 .paypal{
     width: 80px;
+
 }
 
 
