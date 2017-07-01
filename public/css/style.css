@@ -153,8 +153,7 @@ height: 350px;
 
 .landing-info  {
 margin-top: -300px;
-margin-left: 10px;
-margin-left: 260px;
+margin-left: 190px;
 
 }
 
@@ -583,7 +582,7 @@ font-size: 18px;
 @media screen and (min-width: 1400px)
  {
  .landing-essay {
-    margin-left: 80px;
+    margin-left: 125px;
  }
 
  .logo {
