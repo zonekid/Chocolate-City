@@ -408,7 +408,7 @@ line-height: 25px;
 
 .partners-lead{
 font-family: AvenirNext-Regular;
-font-weight: lighter;
+/*font-weight: lighter;*/
 font-size: 32px;
 color: #000000;
 margin-top: 50px;
@@ -425,6 +425,119 @@ margin-top: 50px;
 
 .line-1 {
   width: 710px;
+}
+
+.line-2 {
+  margin-bottom: 170px;
+  position: absolute;
+  margin-left: 100px;
+  margin-top: 170px;
+
+}
+
+.line-3 {
+position: relative;
+margin-left: 260px;
+}
+
+.lines {
+  margin-left: 100px;
+  margin-top: 100px;
+}
+
+.interested {
+  /* Interested in becomi: */
+font-family: AvenirNext-Regular;
+font-size: 18px;
+color: #000000;
+letter-spacing: 0.5px;
+margin-top: 70px;
+}
+
+.line-4 {
+  margin-top: 100px;
+}
+.donors {
+  /* INDIVIDUAL DONORS: */
+font-family: AvenirNext-UltraLight;
+font-size: 32px;
+color: #000000;
+letter-spacing: 2.96px;
+text-transform: uppercase;
+}
+
+.crowd {
+  /* Crowdfunding Support: */
+font-family: AvenirNext-Medium;
+font-size: 18px;
+color: #000000;
+letter-spacing: 1.5px;
+margin-top: -40px;
+}
+.flex-1 li {
+  list-style-type: none;
+  margin-left: -40px;
+  /* Loza Dejene LucyRose: */
+font-family: AvenirNext-UltraLight;
+font-size: 18px;
+color: #000000;
+}
+.flex-2 li {
+  list-style-type: none;
+  margin-left: 200px;
+  /* Loza Dejene LucyRose: */
+font-family: AvenirNext-UltraLight;
+font-size: 18px;
+color: #000000;
+}
+.list-flex {
+  display: flex;
+}
+
+.donate-button {
+  /* Rectangle 5: */
+background: rgba(0,0,0,0.00);
+border: 3px solid #000000;
+border-radius: 100px;
+margin-top: 50px;
+font-size: 25px;
+/* DONATE NOW: */
+font-family: HelveticaNeue-Medium;
+color: #000000;
+letter-spacing: 2px;
+text-transform: uppercase;
+}
+
+.line-5 {
+margin-top: 60px;
+}
+
+.become {
+  /* BECOME A PARTNER: */
+font-family: HelveticaNeue-Light;
+font-size: 32px;
+color: #000000;
+letter-spacing: 2.96px;
+margin-top: 50px;
+}
+
+.if-you {
+  /* If you would like to: */
+font-family: Palatino-Roman;
+font-size: 18px;
+color: #000000;
+letter-spacing: 1.66px;
+}
+
+.partners-space {
+margin-left: -300px;
+}
+
+.organization-name {
+  background: rgba(239,239,239,0.77);
+  border: 2px solid #9B9B9B;
+  height: 30px;
+  width: 316px;
 }
 .mural {
     position: relative;
