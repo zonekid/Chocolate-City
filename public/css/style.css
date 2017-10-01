@@ -655,6 +655,7 @@ margin-left: 130px;
 margin-top: 60px;
 }
 
+
 .whole-action {
     margin-bottom: 50px;
 }
@@ -688,7 +689,7 @@ margin-top: 60px;
 }
 
 .gallerythree {
-    background-image: url(/public/assets/love-block.png);
+    background-image: url(/public/assets/Brookland-Manor-Tenant-President-Still.png);
     min-width: 400px;
     min-height: 250px;
     background-size: cover;
@@ -698,7 +699,7 @@ margin-top: 60px;
 
 }
 .galleryfour {
-    background-image: url(/public/assets/old-character.png);
+    background-image: url(/public/assets/Bundy-B&W-still.png);
     min-width: 400px;
     min-height: 250px;
     background-size: cover;
@@ -708,7 +709,16 @@ margin-top: 60px;
 }
 
 .galleryfive {
-    background-image: url(/public/assets/young-character.png);
+    background-image: url(/public/assets/Eric-Weever-B&W-still.png);
+    min-width: 400px;
+    min-height: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-grow: 1;
+    margin: 5px;
+}
+.gallerysix {
+    background-image: url(/public/assets/Freddy-B&W.png);
     min-width: 400px;
     min-height: 250px;
     background-size: cover;
@@ -717,8 +727,8 @@ margin-top: 60px;
     margin: 5px;
 }
 
-.gallerysix {
-    background-image: url(/public/assets/art-store.png);
+.galleryseven {
+    background-image: url(/public/assets/Mike-Perry-Still-B&W.png);
     min-width: 400px;
     min-height: 250px;
     background-size: cover;
@@ -726,6 +736,35 @@ margin-top: 60px;
     flex-grow: 1;
     margin: 5px;
 }
+.galleryeight {
+    background-image: url(/public/assets/Redskins.png);
+    min-width: 400px;
+    min-height: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-grow: 1;
+    margin: 5px;
+}
+
+.gallerynine {
+    background-image: url(/public/assets/Stuart-B&W-still.png);
+    min-width: 400px;
+    min-height: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-grow: 1;
+    margin: 5px;
+}
+.galleryten {
+    background-image: url(/public/assets/Zarina-Headshot-B&W-copy.png);
+    min-width: 400px;
+    min-height: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 5px;
+    margin-right: 870px;
+}
+
 
 
 .gallery-title {
@@ -740,7 +779,9 @@ margin-top: 60px;
     flex-wrap: wrap;
     margin-bottom: 80px;
     justify-content: space-around;
+
 }
+
 
 .form{
 margin-left: 400px;
@@ -791,15 +832,15 @@ width: 316px;
 
 .contact {
     margin-left: 400px;
-    /* CONTACT US: */
-font-family: HelveticaNeue-Light;
-font-size: 32px;
-color: #000000;
-letter-spacing: 2.96px;
+    font-family: HelveticaNeue-Light;
+    font-weight: lighter;
+    font-size: 32px;
+    color: #000000;
+    letter-spacing: 2.96px;
 }
 
 .contact-space {
-    margin-top: -190px;
+    margin-top: -210px;
     margin-left: 60px;
     margin-bottom: 40px;
 
