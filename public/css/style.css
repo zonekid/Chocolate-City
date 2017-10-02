@@ -181,10 +181,12 @@ margin-left: 200px;
 }
 
 .uncovering {
-    font-family: Avenir Next-Regular;
+  /* Uncovering the Roots: */
+
+    font-family: Avenir;
     display: inline;
     font-weight: lighter;
-    margin-left: -58px;
+    margin-left: -86px;
     /* Uncovering the Roots: */
     font-size: 55px;
     color: #000000;
@@ -248,7 +250,8 @@ border: 1px solid #736C6C;
 
 .meet {
   /* MEET THE DIRECTOR: */
-  font-family: AvenirNext-Medium;
+  font-family: Avenir;
+  text-transform: uppercase;
   font-size: 72px;
   color: #F9F9F9;
   letter-spacing: 6.5px;
@@ -256,7 +259,9 @@ border: 1px solid #736C6C;
 text-align: center;
 position: absolute;
 bottom: 350px;
-left: 286px;
+margin-left: 195px;
+/*left: 286px;*/
+/*margin-right: 250px;*/
 
 }
 
@@ -323,7 +328,7 @@ font-size: 16px;
 }
 
   .spotlight-title {
-    font-family: AvenirNext-Medium;
+    font-family: Avenir;
     font-size: 72px;
     color: #F9F9F9;
     letter-spacing: 6.5px;
@@ -331,7 +336,7 @@ font-size: 16px;
   text-align: center;
   position: absolute;
   bottom: 320px;
-  left: 160px;
+  left: 170px;
   text-transform: uppercase;
 
   }
@@ -343,7 +348,7 @@ font-size: 16px;
       margin-top: -190px;
       text-align: justify;
       /* A native Californian: */
-  font-family: AvenirNext-Regular;
+  font-family: Avenir;
   font-size: 16px;
   color: #000000;
   letter-spacing: 0;
@@ -385,7 +390,7 @@ line-height: 25px;
 }
 
 .partners-title {
-    font-family: AvenirNext-Medium;
+    font-family: Avenir;
     font-size: 72px;
     color: #F9F9F9;
     letter-spacing: 6.5px;
@@ -407,7 +412,7 @@ line-height: 25px;
 }
 
 .partners-lead{
-font-family: AvenirNext-Regular;
+font-family: Avenir;
 /*font-weight: lighter;*/
 font-size: 32px;
 color: #000000;
@@ -548,7 +553,8 @@ margin-left: -300px;
 }
 
 .take {
-    font-family: HelveticaNeue-Medium;
+    font-family: Avenir;
+    font-weight: lighter;
     font-size: 72px;
     color: white;
     letter-spacing: 2.9px;
@@ -571,10 +577,10 @@ border-radius: 100px;
 text-align: center;
 position: absolute;
 bottom: 400px;
-left: 530px;
+left: 520px;
 font-size: 30px;
 /* JOIN US: */
-font-family: HelveticaNeue-Medium;
+font-family: Avenir;
 color: #FFFFFF;
 letter-spacing: 2px;
 width: 200px;
@@ -767,11 +773,17 @@ margin-top: 60px;
 
 
 
-.gallery-title {
-    font-family: 'Playfair Display', serif;
-    font-size: 32px;
-    color: #4A4A4A;
-    letter-spacing: 2.96px;
+.gallery-title1 {
+    font-family: Avenir;
+    font-size: 72px;
+    color: #F9F9F9;
+    letter-spacing: 6.5px;
+    font-weight: normal;
+  text-align: center;
+  position: absolute;
+  bottom: 320px;
+  left: 470px;
+  text-transform: uppercase;
 }
 
 .gallery-images {
@@ -856,13 +868,14 @@ width: 316px;
 
 .contact-us2 {
 
-        font-family: HelveticaNeue-Medium;
-        font-size: 68px;
+        font-family: Avenir;
+        font-size: 72px;
+        font-weight: lighter;
         color: white;
         letter-spacing: 2.9px;
         text-align: center;
         position: absolute;
-        bottom: 450px;
+        bottom: 350px;
         left: 400px;
 }
 .submit {
