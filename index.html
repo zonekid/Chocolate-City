@@ -1,52 +1,71 @@
 <!DOCTYPE html>
 <html data-ng-app="chocolate">
-  <head>
-<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans|Arapey|Droid+Sans|PT+Serif|Playfair+Display|Raleway" rel="stylesheet">
-    <title>Chocolate City</title>
-    <link rel="stylesheet" href="./public/css/style.css" />
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.js"></script>
-    <script src="./public/js/app.js"></script>
 
-  </head>
-  <body>
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans|Arapey|Droid+Sans|PT+Serif|Playfair+Display|Raleway" rel="stylesheet">
+  <title>Chocolate City</title>
+  <link rel="stylesheet" href="./public/css/style.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-<header>
-<div class="heading">
-  <img class="what" src="public/assets/wh2cc logo.png" alt="">
-<!-- <h3 class="what">What Happened 2</h3>
-<h1 class="chocolate">Chocolate City</h1> -->
-</div>
-</header>
-<nav>
-    <div class="nav-items">
-<a data-ui-sref="chocolateMain" class="home">Home</a>
-<div class="dropdown">
-  <a class="about">About</a>
-  <div class="dropdown-content">
-    <a data-ui-sref="chocolateDirector">Meet the Director</a>
-    <a data-ui-sref="chocolateCharacter">Character Spotlight</a>
-    <a data-ui-sref="chocolateTrailer">Trailer</a>
-    <a data-ui-sref="chocolatePartners">Partners</a>
+
+</head>
+
+<body class="container-fluid">
+  <div class="row index">
+    <header class="col-xs-8 col-sm-8 col-md-4 col-lg-4">
+      <div class="heading">
+        <img class="what" src="public/assets/wh2cc logo.png" alt="">
+      </div>
+    </header>
+    <nav class="hidden-xs hidden-sm col-md-8 col-lg-8">
+      <div class="nav-items">
+        <a data-ui-sref="chocolateMain" class="home">Home</a>
+        <div class="dropdown">
+          <a class="about">About</a>
+          <div class="dropdown-content">
+            <a data-ui-sref="chocolateDirector">Meet the Director</a>
+            <a data-ui-sref="chocolateCharacter">Character Spotlight</a>
+            <a data-ui-sref="chocolateTrailer">Trailer</a>
+            <a data-ui-sref="chocolatePartners">Partners</a>
+          </div>
+        </div>
+        <a data-ui-sref="chocolateGallery" class="gallery">Gallery</a>
+        <a data-ui-sref="chocolateContact" class="cont">Contact</a>
+        <a data-ui-sref="chocolateAction" class="take-action">Take Action</a>
+      </div>
+    </nav>
+    <nav class="nav2 col-xs-4 col-sm-4 hidden-md hidden-lg">
+      <span class="glyphicon glyphicon-menu-hamburger dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"></span>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+        <li><a data-ui-sref="chocolateMain">Home</a></li>
+        <li><a data-ui-sref="chocolateDirector">Meet the Director</a></li>
+        <li><a data-ui-sref="chocolateCharacter">Character Spotlight</a></li>
+        <li><a data-ui-sref="chocolateCharacter">Character Spotlight</a></li>
+        <li><a data-ui-sref="chocolatePartners">Partners</a></li>
+        <li><a data-ui-sref="chocolateGallery">Gallery</a></li>
+        <li><a data-ui-sref="chocolateContact">Contact</a></li>
+        <li><a data-ui-sref="chocolateAction">Take Action</a></li>
+      </ul>
+    </nav>
   </div>
-</div>
-<a data-ui-sref="chocolateGallery" class="gallery">Gallery</a>
-<a data-ui-sref="chocolateContact" class="cont">Contact</a>
-<a data-ui-sref="chocolateAction" class="take-action">Take Action</a>
-</div>
-</nav>
 
 
-        <main data-ui-view></main>
 
-<footer>
+  <main data-ui-view></main>
+
+  <footer>
     <div class="social">
 
+      <a href="https://www.instagram.com/wh2cc/"><img src="public/assets/instagramwhite.png" class= "instagram" alt=""></a>
+      <a href="https://www.facebook.com/wh2cc/?ref=bookmarks"><img src="public/assets/facebookicon_white.png" class="facebook" alt=""></a>
 
-<img src="public/assets/face.png" class="facebook" alt="">
-<img src="public/assets/bity.png" class= "twitter" alt="">
-<img src="public/assets/instagramwhite.png" class= "instagram" alt="">
     </div>
-</footer>
-  </body>
+  </footer>
+</body>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.js"></script>
+<script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="./public/js/app.js"></script>
+
 </html>
