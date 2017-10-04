@@ -54,7 +54,9 @@
                     })
 
             }])
-            .controller("ChocolateMainController", [function(){}])
+            .controller("ChocolateMainController", [function main(){
+              // $('.what').hide()
+            }])
             .controller("ChocolateDirectorController", [function(){}])
             .controller("ChocolateCharacterController", [function(){}])
             .controller("ChocolateContactController", [function(){}])
