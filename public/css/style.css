@@ -929,12 +929,7 @@ margin-bottom: 50px;
 margin-left: 400px;
 }
 
-.form2 {
-  margin-left: 300px;
-}
-.mailbox {
-  margin-left: 33px;
-}
+
 .first-contact {
     /* Rectangle 6: */
 background: rgba(239,239,239,0.77);
@@ -988,7 +983,7 @@ margin-top: 10px;
   display: flex;
 }
 #first-name {
-/*margin-bottom: -23px;*/
+margin-bottom: -23px;
 /* Name*: */
 font-family: Palatino-Roman;
 color: #000000;
@@ -997,8 +992,8 @@ letter-spacing: 0.36px;
 
 #last-name{
   margin-left: 100px;
-  /*margin-left: 185px;
-  margin-bottom: 0px;*/
+
+  margin-bottom: 0px;
   /* Name*: */
 font-family: Palatino-Roman;
 color: #000000;
@@ -1043,13 +1038,14 @@ letter-spacing: 0.36px;
 .submit {
 
 margin-top: 30px;
-font-family: HelveticaNeue-Medium;
+font-family: Avenir;
 font-size: 20px;
 color: #FFFFFF;
 letter-spacing: 2px;
 background: #000000;
 border: 3px solid #000000;
 border-radius: 100px;
+text-transform: uppercase;
 
 }
 
