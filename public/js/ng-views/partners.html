@@ -1,22 +1,31 @@
-<video poster="public/assets/floridastill.jpg" class="block" id="bgvid" playsinline autoplay muted loop>
-<!-- WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
-<!-- <source src="http://thenewcode.com/assets/videos/polina.webm" type="video/webm"> -->
-<source src="public/assets/hstreet.mp4" type="video/mp4">
-</video>
-<h1 class="partners-title">Partners</h1>
+<div class="video-container">
+	   <video poster="public/assets/floridastill.jpg" class="mural" id="bgvid" playsinline autoplay muted loop>
+		     <source src="public/assets/hstreet.mp4" type="video/mp4">
+
+	   </video>
+     <div class="row">
+
+   <div class="overlay-desc hidden-xs ">
+      <h1 class="wayne-title">Partners</h1>
+   </div>
+   </div>
+</div>
+	</div>
 
 
-<ul class="list">
-  <a class="list-about">About</a>
-  <div class="list-rest">
-    <li><a data-ui-sref="chocolateDirector">Meet the Director</a></li>
-    <li><a data-ui-sref="chocolateCharacter">Character Spotlight</a></li>
-    <li><a data-ui-sref="chocolateTrailer">Trailer</a></li>
-    <li><a data-ui-sref="chocolatePartners">Partners</a></li>
-    <li><a data-ui-sref="chocolateContact">Contact Us</a> </li>
-  </div>
+  <div class="row">
+    <ul class="list hidden-xs hidden-sm col-md-3 col-lg-3">
+      <li><a class="list-about">About</a></li>
+      <div class="list-rest">
+        <li><a data-ui-sref="chocolateDirector">Meet the Director</a></li>
+        <li><a data-ui-sref="chocolateCharacter">Character Spotlight</a></li>
+        <li><a data-ui-sref="chocolateTrailer">Trailer</a></li>
+        <li><a data-ui-sref="chocolatePartners">Partners</a></li>
+        <li><a data-ui-sref="chocolateContact">Contact Us</a> </li>
+      </div>
+      </ul>
 
-  <div class="partners-div">
+  <div class="partners-div col-xs-12 col-sm-12 col-md-8 col-lg-8">
 
     <p class="partners-lead">The following are individuals, institutions, corporations, and nonprofits that have made a significant impact at each stage of this film. We would like to express our sincere gratitude for your support and partnerships. </p>
     <img class="line-1" src="public/assets/Line1.png" alt="">
@@ -82,7 +91,6 @@
           <li>Martha Aleme-Selassie</li>
 
           <li>Martins Osasu Oronsaye</li>
-          <li>Matamoros</li>
           <li>Mayeda Khan</li>
           <li>Melekte Truneh</li>
           <li>Menna Eshete</li>
@@ -118,9 +126,7 @@
 
     <div class="partners-space">
 
-      <h2 class="contact">Contact Us</h2>
-
-      <form action="mailto:marcusmiller220@gmail.com" method="get" enctype="text/plain">
+      <form action="mailto:mignotae.k@gmail.com" method="get" enctype="text/plain">
         <div class="form">
           <div class="first-last">
             <p id="first-name">First Name*</p>
@@ -137,8 +143,10 @@
           <p id="email-word">Subject*</p>
           <input class="subject" type="text" name="Subject"><br>
           <p id="email-word">Message* (Optional)</p>
-          <input class="message" type="text" name="Message"><br>
+          <textarea class="message" name="Message" type= "text" rows="8" cols="80"></textarea><br>
           <input type="submit" value="Submit" class="submit">
         </div>
       </form>
     </div>
+</div>
+</div>

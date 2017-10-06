@@ -1,40 +1,50 @@
-<video poster="public/assets/floridastill.jpg" class="block" id="bgvid" playsinline autoplay muted loop>
-<!-- WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
-<!-- <source src="http://thenewcode.com/assets/videos/polina.webm" type="video/webm"> -->
-<source src="public/assets/nina1.mp4" type="video/mp4">
-</video>
-<h1 class="contact-us2">CONTACT US</h1>
-<ul class="list">
-    <a class="list-about">About</a>
-    <div class="list-rest">
-    <li><a data-ui-sref="chocolateDirector">Meet the Director</a></li>
-      <li><a data-ui-sref="chocolateCharacter">Character Spotlight</a></li>
-    <li><a data-ui-sref="chocolateTrailer">Trailer</a></li>
-     <li><a data-ui-sref="chocolatePartners">Partners</a></li>
-     <li><a data-ui-sref="chocolateContact">Contact Us</a> </li>
- </div>
- <div class="contact-space">
+<div class="video-container">
+	   <video poster="public/assets/floridastill.jpg" class="mural" id="bgvid" playsinline autoplay muted loop>
+		     <source src="public/assets/nina1.mp4" type="video/mp4">
+
+	   </video>
+     <div class="row">
+
+   <div class="overlay-desc hidden-xs ">
+      <h1 class="wayne-title">Contact Us</h1>
+   </div>
+   </div>
+</div>
+
+  <div class="row">
+    <ul class="list hidden-xs hidden-sm col-md-3 col-lg-3">
+      <li><a class="list-about">About</a></li>
+      <div class="list-rest">
+        <li><a data-ui-sref="chocolateDirector">Meet the Director</a></li>
+        <li><a data-ui-sref="chocolateCharacter">Character Spotlight</a></li>
+        <li><a data-ui-sref="chocolateTrailer">Trailer</a></li>
+        <li><a data-ui-sref="chocolatePartners">Partners</a></li>
+        <li><a data-ui-sref="chocolateContact">Contact Us</a> </li>
+      </div>
+      </ul>
+ <div class="contact-space col-xs-12 col-sm-12 col-md-8 col-lg-8">
 <h2 class="contact">Contact Us</h2>
 
-<form action="mailto:marcusmiller220@gmail.com" method="get" enctype="text/plain">
-  <div class="form">
-    <div class="first-last">
-      <p id="first-name">First Name*</p>
-      <p id="last-name">Last Name*</p>
+<form action="mailto:mignotae.k@gmail.com " method="get" enctype="text/plain">
+  <div class="form2">
+    <div class="first-last2">
+      <p id="first-name2">First Name*</p>
+      <p id="last-name2">Last Name*</p>
     </div>
-    <div class="contact-name">
+    <div class="contact-name2">
 
-      <input class="first-contact" type="text" name="First Name">
+      <input class="first-contact2" type="text" name="First Name">
 
-      <input class="second-contact" type="text" name="Last Name">
+      <input class="second-contact2" type="text" name="Last Name">
     </div>
-    <p id="email-word">Email*</p>
-    <input class="email" type="text" name="Email"><br>
-    <p id="email-word">Subject*</p>
-    <input class="subject" type="text" name="Subject"><br>
-    <p id="email-word">Message* (Optional)</p>
-    <input class="message" type="text" name="Message"><br>
-    <input type="submit" value="Submit" class="submit">
+    <p id="email-word2">Email*</p>
+    <input class="email2" type="text" name="Email"><br>
+    <p id="email-word2">Subject*</p>
+    <input class="subject2" type="text" name="Subject"><br>
+    <p id="email-word2">Message* (Optional)</p>
+    <textarea class="message2" name="Message" type= "text" rows="8" cols="80"></textarea><br>
+    <input type="submit" value="Submit" class="submit2">
   </div>
 </form>
+</div>
 </div>

@@ -1,12 +1,20 @@
-<video poster="public/assets/floridastill.jpg" class="block" id="bgvid" playsinline autoplay muted loop>
-<!-- WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
-<!-- <source src="http://thenewcode.com/assets/videos/polina.webm" type="video/webm"> -->
-<source src="public/assets/Playground loop.mp4" type="video/mp4">
-</video>
-<h1 class="spotlight-title">Character Spotlight</h1>
+<div class="video-container">
+	   <video poster="public/assets/floridastill.jpg" class="mural" id="bgvid" playsinline autoplay muted loop>
+		     <source src="public/assets/Playground loop.mp4" type="video/mp4">
+
+	   </video>
+     <div class="row">
+
+   <div class="overlay-desc hidden-xs ">
+      <h1 class="wayne-title">Character Spotlight</h1>
+   </div>
+   </div>
+</div>
+
 <div class="row">
+
   <ul class="list hidden-xs hidden-sm col-md-3 col-lg-3">
-    <a class="list-about">About</a>
+    <li><a class="list-about">About</a></li>
     <div class="list-rest">
       <li><a data-ui-sref="chocolateDirector">Meet the Director</a></li>
       <li><a data-ui-sref="chocolateCharacter">Character Spotlight</a></li>
@@ -14,22 +22,19 @@
       <li><a data-ui-sref="chocolatePartners">Partners</a></li>
       <li><a data-ui-sref="chocolateContact">Contact Us</a> </li>
     </div>
+    </ul>
 
-    <div class="mainwrapper">
 
-      <!-- Image Caption 3 -->
-      <!-- Image Caption 3 -->
-      <div class="one-pic">
+    <div class="mainwrapper col-xs-12 col-sm-12 col-md-8 col-lg-8">
+
 
         <div class="box">
-          <img id="image-3" src="public/assets/John Russel.jpg" />
+          <img class= id="image-3" src="public/assets/John Russel.jpg" />
           <span class="caption fade-caption">
            <h3 class="char-name">JOHN RUSSELL</h3>
            <p class="quotes">"I look at youth today and I feel sorry for them because they're not afforded the same structure that we had and they're forced to fend on their own."</p>
            </span>
         </div>
-      </div>
-      <div class="two-pics">
 
         <div class="box">
           <img id="image-3" src="public/assets/Mike Perry Still.jpg" />
@@ -49,8 +54,6 @@
       </div>
 
     </div>
-</div>
-
 
 
 
