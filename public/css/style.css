@@ -613,7 +613,7 @@ margin-top: -40px;
 font-family: AvenirNext-UltraLight;
 font-size: 18px;
 color: #000000;
-text-decoration: underline;
+/*text-decoration: underline;*/
 }
 .flex-2 li {
   list-style-type: none;
@@ -622,7 +622,7 @@ text-decoration: underline;
 font-family: AvenirNext-UltraLight;
 font-size: 18px;
 color: #000000;
-text-decoration: underline;
+/*text-decoration: underline;*/
 }
 .list-flex {
   display: flex;
