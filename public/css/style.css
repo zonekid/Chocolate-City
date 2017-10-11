@@ -214,6 +214,7 @@ width: 800px;
 margin-top: 50px;
 display: block;
 text-align: justify;
+margin-bottom: 80px;
 
 }
 
@@ -523,7 +524,7 @@ margin-top: 50px;
 }
 
 .line-1 {
-  width: 510px;
+  width: 910px;
 }
 
 .line-2 {
@@ -537,6 +538,7 @@ margin-top: 50px;
 .line-3 {
 position: relative;
 margin-left: 260px;
+
 }
 
 .lines {
@@ -583,7 +585,7 @@ margin-top: 70px;
 
 .line-4 {
   margin-top: 100px;
-  width: 510px;
+  width: 910px;
 }
 .donors {
   /* INDIVIDUAL DONORS: */
@@ -592,6 +594,7 @@ font-size: 32px;
 color: #000000;
 letter-spacing: 2.96px;
 text-transform: uppercase;
+margin-top: 40px;
 }
 
 .crowd {
@@ -633,7 +636,7 @@ color: #000000;
 background: rgba(0,0,0,0.00);
 border: 3px solid #000000;
 border-radius: 100px;
-margin-top: 40px;
+margin-top: 30px;
 font-size: 25px;
 /* DONATE NOW: */
 font-family: HelveticaNeue-Medium;
@@ -643,10 +646,32 @@ text-transform: uppercase;
 
 }
 
+.donate-button2 {
+  background: rgba(0,0,0,0.00);
+  border: 3px solid #000000;
+  border-radius: 100px;
+  margin-top: 30px;
+  font-size: 25px;
+  /* DONATE NOW: */
+  font-family: HelveticaNeue-Medium;
+  color: #000000;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.donate-button2:hover {
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+.donate-button:hover {
+  background-color: #000000;
+  color: #FFFFFF;
+}
 .line-5 {
 margin-top: 60px;
-margin-right: 100px;
-width: 510px;
+margin-right: 300px;
+width: 910px;
 }
 
 .become {
@@ -1188,6 +1213,14 @@ video {
   align-items: center;
   justify-content: center;
 }
+
+.overlay-desc2 {
+  background: rgba(0,0,0,0);
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+
+
+}
 .wayne-title {
   font-family: Avenir;
   font-size: 72px;
@@ -1198,15 +1231,30 @@ video {
   text-align: center;
 }
 
-/*.wh2cc {
+.wayne-title2 {
   font-family: Avenir;
-  font-size: 22px;
+  font-size: 72px;
   color: #F9F9F9;
   letter-spacing: 6.5px;
   font-weight: normal;
   text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 200px;
 
-}*/
+}
+
+.wh2cc {
+  font-family: Avenir;
+  font-size: 21px;
+  color: #F9F9F9;
+  letter-spacing: 6.5px;
+  font-weight: normal;
+  text-transform: uppercase;
+  float: left;
+  margin-top: -75px;
+  padding-left: 15px;
+
+}
 
 /*.wh2cc2 {
   font-family: Avenir;
@@ -1215,7 +1263,6 @@ video {
   font-weight: normal;
   text-transform: uppercase;
   float: left;
-
 
 }*/
 .glyphicon-menu-hamburger {

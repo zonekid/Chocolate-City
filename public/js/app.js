@@ -55,16 +55,28 @@
 
             }])
             .controller("ChocolateMainController", [function main(){
-              // $('.what').hide()
+              $('.what').hide()
             }])
-            .controller("ChocolateDirectorController", [function(){}])
-            .controller("ChocolateCharacterController", [function(){}])
+            .controller("ChocolateDirectorController", [function(){
+                  $('.what').show()
+            }])
+            .controller("ChocolateCharacterController", [function(){
+                  $('.what').show()
+            }])
             .controller("ChocolateContactController", [function(){
-              // $('.what').hide()
+              $('.what').show()
             }])
-            .controller("ChocolatePartnersController", [function(){}])
-            .controller("ChocolateTrailerController", [function(){}])
-            .controller("ChocolateGalleryController", [function(){}])
-            .controller("ChocolateActionController", [function(){}])
+            .controller("ChocolatePartnersController", [function(){
+                  $('.what').show()
+            }])
+            .controller("ChocolateTrailerController", [function(){
+                  $('.what').show()
+            }])
+            .controller("ChocolateGalleryController", [function(){
+                  $('.what').show()
+            }])
+            .controller("ChocolateActionController", [function(){
+                  $('.what').show()
+            }])
     }
     ())
