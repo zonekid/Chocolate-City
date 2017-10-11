@@ -824,10 +824,12 @@ font-size: 28px;
 
 
 .whole-action {
-    margin-bottom: 770px;
+    margin-bottom: 70px;
     padding-top: 20px;
 }
-
+.full-action {
+  margin-bottom: 700px;
+}
 .hst {
     position: relative;
     width: 100%;
