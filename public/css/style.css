@@ -524,7 +524,7 @@ margin-top: 50px;
 }
 
 .line-1 {
-  width: 910px;
+  width: 710px;
 }
 
 .line-2 {
@@ -585,7 +585,7 @@ margin-top: 70px;
 
 .line-4 {
   margin-top: 100px;
-  width: 910px;
+  width: 710px;
 }
 .donors {
   /* INDIVIDUAL DONORS: */
@@ -671,7 +671,7 @@ text-transform: uppercase;
 .line-5 {
 margin-top: 60px;
 margin-right: 300px;
-width: 910px;
+width: 710px;
 }
 
 .become {
@@ -696,7 +696,10 @@ padding-bottom: 10px;
 .partners-space {
 margin-left: -400px;
 padding-bottom: 80px;
+
 }
+
+
 
 .organization-name {
   background: rgba(239,239,239,0.77);
