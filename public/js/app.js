@@ -59,7 +59,9 @@
             }])
             .controller("ChocolateDirectorController", [function(){}])
             .controller("ChocolateCharacterController", [function(){}])
-            .controller("ChocolateContactController", [function(){}])
+            .controller("ChocolateContactController", [function(){
+              // $('.what').hide()
+            }])
             .controller("ChocolatePartnersController", [function(){}])
             .controller("ChocolateTrailerController", [function(){}])
             .controller("ChocolateGalleryController", [function(){}])
