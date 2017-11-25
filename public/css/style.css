@@ -910,9 +910,18 @@ font-size: 28px;
   }
 
 .gallerypics {
-    width: 32vw;
-  height: 300px;
-  padding-top: 10px;
+    width: 350px;
+  height: 272px;
+  padding: 2px;
+
+
+
+}
+
+.gallerypics:hover {
+  transform: scale(1.7,1.7);
+  transition: .3s transform;
+  z-index: 1;
 
 }
 
@@ -937,9 +946,7 @@ margin-right: 20px;
 margin-bottom: 50px;
 display: flex;
 flex-wrap: wrap;
-justify-content: space-around;
-
-flex-grow: 1
+padding: 2px;
 
 }
 
@@ -1288,11 +1295,9 @@ video {
   margin-top: -100px;
 }
 
-@media only screen
-  and (min-device-width: 375px)
-  and (max-device-width: 768px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-.box {
-
+.lightbox{
+  z-index: 1041;
 }
+.small-img{
+  width: 100px;height: 100px;
 }
