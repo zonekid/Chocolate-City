@@ -74,6 +74,8 @@
             }])
             .controller("ChocolateGalleryController", [function(){
                   $('.what').show()
+
+
             }])
             .controller("ChocolateActionController", [function(){
                   $('.what').show()
