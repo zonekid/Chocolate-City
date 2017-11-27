@@ -529,7 +529,7 @@ margin-top: 50px;
 }
 
 .line-1 {
-  width: 710px;
+  width: 830px;
 }
 
 .line-2 {
@@ -655,7 +655,7 @@ text-transform: uppercase;
   background: rgba(0,0,0,0.00);
   border: 3px solid #000000;
   border-radius: 100px;
-  margin-top: 30px;
+  margin-top: 10px;
   font-size: 25px;
   /* DONATE NOW: */
   font-family: HelveticaNeue-Medium;
