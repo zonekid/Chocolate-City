@@ -681,7 +681,7 @@ width: 710px;
 
 .become {
   /* BECOME A PARTNER: */
-font-family: HelveticaNeue-Light;
+font-family: Avenir-light;
 font-size: 32px;
 color: #000000;
 letter-spacing: 2.96px;
@@ -690,7 +690,7 @@ margin-top: 50px;
 
 .if-you {
   /* If you would like to: */
-font-family: Palatino-Roman;
+font-family: Avenir-light;
 font-size: 18px;
 color: #000000;
 letter-spacing: 1.66px;
@@ -910,20 +910,25 @@ font-size: 28px;
   }
 
 .gallerypics {
-    width: 350px;
-  height: 272px;
-  padding: 2px;
+
+  height: 352px;
+  padding: 5px;
+
+
+    /* reset the text-align */
+
+    /* inline-block space fix */
+    margin-right:-17px;
+
+
+}
+
+.gallerytask {
 
 
 
 }
 
-.gallerypics:hover {
-  transform: scale(1.7,1.7);
-  transition: .3s transform;
-  z-index: 1;
-
-}
 
 
 .gallery-title1 {
@@ -941,12 +946,12 @@ font-size: 28px;
 }
 
 .gallery-images {
-margin-left: 20px;
-margin-right: 20px;
-margin-bottom: 50px;
-display: flex;
+
+/*display: flex;
 flex-wrap: wrap;
-padding: 2px;
+flex-direction: row;
+margin: 10px;*/
+
 
 }
 
@@ -1198,11 +1203,10 @@ margin-left: 480px;
 }
 
 .soon {
-  font-family: AvenirNext-Italic;
+  font-family: AvenirNext;
   font-size: 50px;
   color: #000000;
   letter-spacing: 3.2px;
-  font-style: italic;
   font-weight: lighter;
   text-transform: uppercase;
   margin-bottom: 950px;
@@ -1281,23 +1285,3 @@ video {
   float: left;
 
 }*/
-.glyphicon-menu-hamburger {
-  z-index: 1;
-
-}
-
-.main-head {
-  background: rgba(0,0,0,0);
-  position: absolute;
-  top: 0; right: 0; bottom: 0; left: 0;
-  display: flex;
-  align-items: flex-start;
-  margin-top: -100px;
-}
-
-.lightbox{
-  z-index: 1041;
-}
-.small-img{
-  width: 100px;height: 100px;
-}
