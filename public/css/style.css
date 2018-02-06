@@ -189,7 +189,7 @@ height: 130px;
 .uncovering {
   /* Uncovering the Roots: */
 
-    font-family: Avenir;
+font-family: 'Rock Salt', cursive;
     text-align: center;
     font-weight: lighter;
 
@@ -429,8 +429,8 @@ align-items: center;
    margin: 5px;
    position: relative;
    overflow: hidden;
-   width: 456px;
-   height: 330px;
+   width: 516px;
+   height: 390px;
    padding-top: 25px;
    /*margin-left: 300px;*/
 
@@ -448,8 +448,8 @@ align-items: center;
    transition: all 300ms ease-out;
    /*height: 100%;
    width: 100%;*/
-   height: 280px;
-  width: 426px;
+   height: 400px;
+  width: 500px;
 }
 
 
@@ -467,8 +467,8 @@ align-items: center;
    transition: all 300ms ease-out;
    left: 0;
    opacity: 0;
-   height: 280px;
-   width: 426px;
+   height: 400px;
+   width: 500px;
    /*text-align: left;*/
    padding: 15px;
 }
@@ -480,15 +480,20 @@ align-items: center;
 }
 
 .quotes {
-  font-size: 18px;
-     font-family: Avenir;
+  font-size: 22px;
+font-family: 'Rock Salt', cursive;
+margin-top: 40px;
 }
 
 .char-name {
-  font-size: 26px;
-     font-family: Avenir;
+  font-size: 28px;
+font-family: 'Rock Salt', cursive;
 }
 
+.dc-flag {
+margin-bottom: 200px;
+
+}
 .partners-title {
     font-family: Avenir;
     font-size: 72px;
