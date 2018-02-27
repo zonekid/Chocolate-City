@@ -186,7 +186,7 @@ height: 130px;
 .trailer {
   width: 100%;
   height: 500px;
-  margin-top: 60px;
+  margin-top: 50px;
 
 }
 
@@ -201,7 +201,7 @@ height: 130px;
     font-size: 55px;
     color: #000000;
     letter-spacing: 0;
-    margin-top: 45px;
+    margin-top: 75px;
 
     /*text-align: center;*/
     position: relative;
@@ -489,15 +489,15 @@ align-items: center;
 }
 
 .quotes {
-  font-size: 26px;
-font-family: "Raleigh Rock", cursive;
+  font-size: 32px;
+font-family: HelveticaNeue;
 margin-top: 40px;
-line-height: 50px;
+/* line-height: 50px; */
 }
 
 .char-name {
   font-size: 34px;
-font-family: HelveticaNeue;
+font-family: "Raleigh Rock";
 }
 
 
