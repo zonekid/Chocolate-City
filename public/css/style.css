@@ -1,8 +1,13 @@
-@font-face {
-  font-family: "Raleigh Rock";
-  src: url(Raleigh Rock.ttf);
-}
-
+ @font-face {
+   font-family:"Raleigh Rock";
+   src:url("../assets/Raleigh_Rock.eot") format("eot"),
+       url("../assets/Raleigh_Rock.eot?#iefixed") format("eot")
+       url("../assets/Raleigh_Rock.woff") format("woff"),
+       url("../assets/Raleigh_Rock.ttf") format("truetype"),
+       url("../assets/Raleigh_Rock.svg#RaleighRock")format("svg");
+   font-weight:normal;
+   font-style:normal;
+ }
 
 .heading{
     /* PARTNERS: */
