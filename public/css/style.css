@@ -1,4 +1,6 @@
-/* @font-face kit by Fonts2u (http://www.fonts2u.com) */ @font-face {font-family:"Raleigh Rock"; src: url("Raleigh_Rock.ttf");}
+ @@font-face {font-family: "Raleigh Rock";
+ src: url("Raleigh_Rock.ttf") format('truetype');
+}
 
 
 .heading{
