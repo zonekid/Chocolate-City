@@ -210,10 +210,9 @@ height: 130px;
     color: #000000;
     letter-spacing: 0;
     margin-top: 75px;
+    line-height: 2.0;
 
-    /*text-align: center;*/
     position: relative;
-    /*margin-right: 210px;*/
 }
 
 .landing-essay {
