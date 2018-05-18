@@ -9,6 +9,12 @@
    font-style:normal;
  }
 
+@font-face {
+  font-family: "Futura";
+  src: url("public/assets/Futura Condensed Medium.otf");
+}
+
+
 .heading{
     /* PARTNERS: */
 margin-top: 30px;
@@ -228,6 +234,10 @@ display: block;
 text-align: justify;
 margin-bottom: 80px;
 
+}
+
+.third {
+  margin-top: 35px;
 }
 
 #chocolate-city {
@@ -464,8 +474,8 @@ align-items: center;
    transition: all 300ms ease-out;
    /*height: 100%;
    width: 100%;*/
-   height: 680px;
-  width: 500px;
+   height: 690px;
+  width: 460px;
 }
 
 
@@ -483,8 +493,8 @@ align-items: center;
    transition: all 300ms ease-out;
    left: 0;
    opacity: 0;
-   height: 680px;
-   width: 500px;
+   height: 690px;
+   width: 460px;
    /*text-align: left;*/
    padding: 15px;
 }
@@ -497,10 +507,28 @@ align-items: center;
 
 .quotes {
   font-size: 32px;
-font-family: HelveticaNeue;
-margin-top: 40px;
+  font-family: "Futura";
+margin-top: 0px;
+text-align: center;
 /* line-height: 50px; */
 }
+
+#single-quote {
+  font-size: 64px;
+  font-family: HelveticaNeue;
+  margin-top: 60px;
+  text-align: center;
+  display: block;
+}
+
+#single-quote2 {
+  font-size: 64px;
+  font-family: HelveticaNeue;
+  margin-top: 30px;
+  text-align: center;
+  display: block;
+}
+
 
 .char-name {
   font-size: 34px;
