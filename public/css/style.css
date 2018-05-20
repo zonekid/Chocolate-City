@@ -10,10 +10,15 @@
  }
 
 @font-face {
-  font-family: "Futura";
+  font-family:"Futura";
   src: url("public/assets/Futura Condensed Medium.otf");
 }
 
+@font-face {
+  font-family:"DontMelt" format("opentype");
+  src: url("public/assets/DontMeltDrip_Regular.otf");
+  font-style: normal;
+}
 
 .heading{
     /* PARTNERS: */
@@ -38,12 +43,30 @@ height: 117px;
 
 body {
   margin: 0px;
+
+}
+#sticky-banner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  /* Rectangle 5: */
+background: #909AB9;
 }
 
+#sticky-banner h1 {
+  margin: 0;
+  font-size: 12px;
+  color: #FFFFFF;
+  text-align: center;
+}
+.buy {
+  color: #FFFFFF;
+  text-decoration: underline;
+}
 
-
-
-nav {
+.nav1 {
     /* GALLERY: */
     font-family: Avenir;
     font-size: 20px;
@@ -69,7 +92,6 @@ padding-right: 38px;
     text-decoration: none;
     text-transform: uppercase;
 }
-
 
 
 
@@ -158,13 +180,15 @@ border: 1px solid #212020;
 .take-action {
     /* Rectangle 2: */
 border: 2px solid #FFFFFF;
-border-radius: 16px;
+border-radius: 100px;
 font-family: Avenir;
 font-size: 20px;
 color: black;
 letter-spacing: 1.05px;
 padding: 8px;
 text-decoration: none;
+margin-right: 20px;
+
 
 }
 
@@ -198,27 +222,86 @@ height: 130px;
 
 
 .trailer {
-  width: 100%;
-  height: 500px;
-  margin-top: 50px;
+margin-top: 50px;
+
+}
+
+.main-back {
+  background-image: url(../assets/lincoln_theatreposter.png);
+  background-size: cover;
+  /* background-repeat: round; */
+  height: 1800px;
+
+}
+
+.ticketcolumn {
+
+
+}
+.ticket1 {
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+ .ticketbtn1 {
+
+
+
+/* Rectangle 6: */
+background: #E27E6F;
+box-shadow: 0 2px 3px 0 rgba(0,0,0,0.50);
+border-radius: 6px;
+/* Buy Ticket: */
+font-family: AvenirNext-Medium;
+font-size: 14px;
+color: #FFFFFF;
+letter-spacing: 0.39px;
+
+}
+
+.ticketbtn2 {
+
+
+
+/* Rectangle 6: */
+background: #E27E6F;
+box-shadow: 0 2px 3px 0 rgba(0,0,0,0.50);
+border-radius: 6px;
+/* Buy Ticket: */
+font-family: AvenirNext-Medium;
+font-size: 14px;
+color: #FFFFFF;
+letter-spacing: 0.39px;
 
 }
 
 
+.ticket2 {
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 30px;
+
+}
 
 .uncovering {
-  /* Uncovering the Roots: */
-    font-family: "Raleigh Rock";
-    text-align: center;
-    /* font-weight: lighter; */
 
-    font-size: 55px;
-    color: #000000;
-    letter-spacing: 0;
-    margin-top: 75px;
-    line-height: 1.6;
+    /* #CHOCOLATECITY WEEK: */
+font-family: DontMeltDrip-Regular;
+font-size: 92px;
+color: #FFFFFF;
+letter-spacing: 2.88px;
+text-shadow: 0 2px 6px #4A4A4A;
+text-align: center;
+}
 
-    position: relative;
+
+.first-event {
+  /* Rectangle 13: */
+
 }
 
 .landing-essay {
@@ -237,7 +320,11 @@ margin-bottom: 80px;
 }
 
 .third {
-  margin-top: 35px;
+  margin-top: 25px;
+}
+
+.second {
+  margin-top: 25px;
 }
 
 #chocolate-city {
@@ -269,13 +356,13 @@ border: 1px solid #736C6C;
 .facebook{
     width: 43px;
     height: 40px;
-    padding-left: 5px;
+    padding-left: 9px;
 
     margin-bottom: 2px;
 }
 .instagram {
   height: 44px;
-  padding-right: 5px;
+  padding-right: 9px;
   width: 45px;
   margin-top: -1px;
 }
@@ -507,7 +594,7 @@ align-items: center;
 
 .quotes {
   font-size: 32px;
-  font-family: "Futura";
+  font-family:"Futura";
 margin-top: 0px;
 text-align: center;
 /* line-height: 50px; */
@@ -515,7 +602,7 @@ text-align: center;
 
 #single-quote {
   font-size: 64px;
-  font-family: HelveticaNeue;
+  font-family: Helvetica-Neue;
   margin-top: 60px;
   text-align: center;
   display: block;
@@ -523,7 +610,7 @@ text-align: center;
 
 #single-quote2 {
   font-size: 64px;
-  font-family: HelveticaNeue;
+  font-family: Helvetica-Neue;
   margin-top: 30px;
   text-align: center;
   display: block;
@@ -846,11 +933,10 @@ letter-spacing: 1px;
 
 }
 
-.paypal{
-    width: 80px;
+.paypalbutton {
 
+width: 150px;
 }
-
 
 .donate-info {
     text-align: center;
@@ -915,7 +1001,7 @@ font-size: 28px;
     padding-top: 20px;
 }
 .full-action {
-  margin-bottom: 700px;
+  margin-bottom: 200px;
 }
 .hst {
     position: relative;
@@ -1164,11 +1250,41 @@ letter-spacing: 0.36px;
     letter-spacing: 2.96px;
     padding-right: 157px;
 }
+.contactbody {
+  margin-top: 50px;
+  padding-right: 40px;
+}
 
+.contactbody p {
+  font-family: AvenirNext-Regular;
+  font-size: 22px;
+  color: #4A4A4A;
+  letter-spacing: 0;
+}
+.contactinfo li {
+
+  /* For any information: */
+font-family: AvenirNext-Regular;
+font-size: 22px;
+color: #4A4A4A;
+letter-spacing: 0;
+}
+
+.conemail {
+  color: black;
+  text-decoration: underline;
+}
+.forany2 {
+  font-family: AvenirNext-Regular;
+  font-size: 22px;
+  color: #4A4A4A;
+  letter-spacing: 0;
+  padding-left: 95px;
+}
 .contact-space {
 
 /*margin-left: 150px;*/
-margin-bottom: 720px;
+margin-bottom: 320px;
 margin-top: 25px;
 /*left: 100px;
 right: 250px;*/
@@ -1327,6 +1443,8 @@ video {
   float: left;
   margin-top: -75px;
   padding-left: 15px;
+  /* WH2CC: */
+text-shadow: 0 2px 3px #FFFFFF;
 
 }
 
