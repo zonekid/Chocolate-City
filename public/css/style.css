@@ -224,13 +224,10 @@ height: 130px;
 .trailer {
 margin-top: 50px;
 
-.container-fluid {
-  /*text-align: -webkit-center;*/
-  padding: 0 !important;
 }
 
 .main-back {
-  background-image: url(../assets/lincoln_theatreposter.png);
+  background-image: url("../assets/lincoln_theatreposter.png");
   background-size: cover;
   /* background-repeat: round; */
   height: 1800px;
