@@ -224,6 +224,9 @@ height: 130px;
 .trailer {
 margin-top: 50px;
 
+.container-fluid {
+  /*text-align: -webkit-center;*/
+  padding: 0 !important;
 }
 
 .main-back {
@@ -287,6 +290,8 @@ letter-spacing: 0.39px;
 
 }
 
+
+
 .uncovering {
 
     /* #CHOCOLATECITY WEEK: */
@@ -325,6 +330,10 @@ margin-bottom: 80px;
 
 .second {
   margin-top: 25px;
+}
+
+.third {
+  margin-top: 35px;
 }
 
 #chocolate-city {
