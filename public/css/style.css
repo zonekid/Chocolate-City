@@ -15,10 +15,15 @@
 }
 
 @font-face {
-  font-family:"DontMelt" format("opentype");
-  src: url("public/assets/DontMeltDrip_Regular.otf");
-  font-style: normal;
+  font-family:"Dont Melt Drip Regular";
+  src:url("../assets/DontMeltDrip-Regular.eot") format("eot"),
+      url("../assets/DontMeltDrip-Regular.woff")format("woff"),
+      url("../assets/DontMeltDrip-Regular.ttf")format("truetype"),
+      url("../assets/DontMeltDrip-Regular.svg")format("svg");
+  font-weight:normal;
+  font-style:normal;
 }
+
 
 .heading{
     /* PARTNERS: */
@@ -51,8 +56,9 @@ body {
   left: 0;
   width: 100%;
   padding: 10px;
+
   /* Rectangle 5: */
-background: #909AB9;
+background: #7F8596;
 }
 
 #sticky-banner h1 {
@@ -60,6 +66,7 @@ background: #909AB9;
   font-size: 12px;
   color: #FFFFFF;
   text-align: center;
+  opacity: 1.0;
 }
 .buy {
   color: #FFFFFF;
@@ -292,7 +299,7 @@ letter-spacing: 0.39px;
 .uncovering {
 
     /* #CHOCOLATECITY WEEK: */
-font-family: DontMeltDrip-Regular;
+font-family: "Dont Melt Drip Regular";
 font-size: 92px;
 color: #FFFFFF;
 letter-spacing: 2.88px;
