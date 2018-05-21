@@ -234,10 +234,10 @@ margin-top: 50px;
 }
 
 .main-back {
-  background-image: url("../assets/lincoln_theatreposter2.png");
+  background-image: url("../assets/_DSC8634.jpg");
   background-size: cover;
   opacity: 1.0;
-  /* background-repeat: round; */
+
   height: 1800px;
 
 }
@@ -386,7 +386,7 @@ border: 1px solid #736C6C;
 }
 .tae {
     position: relative;
-    max-height: 690px;
+    max-height: 1000px;
     width: 100%;
     margin-top: -123px;
     z-index: -1;
@@ -937,6 +937,14 @@ color: #000000;
 letter-spacing: 2.96px;
 }
 
+.donate2 {
+  font-family: HelveticaNeue;
+  font-weight: lighter;
+  font-size: 32px;
+  color: #000000;
+  letter-spacing: 2.96px;
+  margin-top: 40px;
+}
 .your-donations {
     /* Your donations will: */
 font-family: Avenir;
@@ -1283,7 +1291,10 @@ font-size: 22px;
 color: #4A4A4A;
 letter-spacing: 0;
 }
-
+.herepdf{
+  color: black;
+  text-decoration: underline;
+}
 .conemail {
   color: black;
   text-decoration: underline;
