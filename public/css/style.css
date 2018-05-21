@@ -302,12 +302,13 @@ letter-spacing: 0.39px;
 .uncovering {
 
     /* #CHOCOLATECITY WEEK: */
-font-family: "Dont Melt Drip Regular";
-font-size: 92px;
+font-family: "Raleigh Rock";
+font-size: 75px;
 color: #000000;
 letter-spacing: 2.88px;
-text-shadow: 0 2px 6px #4A4A4A;
+/* text-shadow: 0 2px 6px #4A4A4A; */
 text-align: center;
+margin-top: 60px;
 }
 
 
