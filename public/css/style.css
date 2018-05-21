@@ -234,8 +234,9 @@ margin-top: 50px;
 }
 
 .main-back {
-  background-image: url("../assets/lincoln_theatreposter.png");
+  background-image: url("../assets/lincoln_theatreposter2.png");
   background-size: cover;
+  opacity: 1.0;
   /* background-repeat: round; */
   height: 1800px;
 
@@ -301,7 +302,7 @@ letter-spacing: 0.39px;
     /* #CHOCOLATECITY WEEK: */
 font-family: "Dont Melt Drip Regular";
 font-size: 92px;
-color: #FFFFFF;
+color: #000000;
 letter-spacing: 2.88px;
 text-shadow: 0 2px 6px #4A4A4A;
 text-align: center;
