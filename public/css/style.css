@@ -226,7 +226,9 @@ height: 130px;
   /*text-align: -webkit-center;*/
   padding: 0 !important;
 }
-
+.trailer-main{
+  margin-bottom: 200px;
+}
 
 .trailer {
 margin-top: 50px;
@@ -1023,7 +1025,7 @@ font-size: 28px;
     padding-top: 20px;
 }
 .full-action {
-  margin-bottom: 200px;
+  margin-bottom: 500px;
 }
 .hst {
     position: relative;
@@ -1309,7 +1311,7 @@ letter-spacing: 0;
 .contact-space {
 
 /*margin-left: 150px;*/
-margin-bottom: 320px;
+margin-bottom: 520px;
 margin-top: 25px;
 /*left: 100px;
 right: 250px;*/
