@@ -432,7 +432,14 @@ padding-left: 50px;
 
 .bio p {
 line-height: 28px;
+color: #000000;
 }
+.cmon {
+  background-color: #000000;
+}
+
+
+
 .director-info {
     /*width: 700px;*/
     /*margin-left: 500px;*/
@@ -441,12 +448,18 @@ line-height: 28px;
     /* A native Californian: */
 font-family: AvenirNext-Regular;
 font-size: 16px;
-color: #000000;
+
 letter-spacing: 0;
 line-height: 21px;
 margin-top: 40px;
 margin-bottom: 380px;
 
+}
+
+.newmigshot {
+  width: 45%;
+  margin-left: 50px;
+  margin-bottom: 50px;
 }
 
 .list {
@@ -1441,6 +1454,8 @@ video {
   align-items: center;
   justify-content: center;
 }
+
+
 
 .overlay-desc2 {
   background: rgba(0,0,0,0);
