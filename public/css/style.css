@@ -76,7 +76,7 @@ background: #7F8596;
 
 .cool a {
    color: #FFFFFF;
-   font-size: 20px;
+   font-size: 24px;
    font-family: Avenir;
    text-transform: uppercase;
    background: none !important;
@@ -255,7 +255,7 @@ letter-spacing: 0.39px;
 .uncovering {
 
  font-family: "Raleigh Rock";
- font-size: 36px;
+ font-size: 38px;
  line-height:100px;
  color: #000000;
  letter-spacing: 2.88px;
@@ -1430,7 +1430,7 @@ video {
 
 .wh2cc {
  font-family: Avenir;
- font-size: 21px;
+ font-size: 25px;
  color: #F9F9F9;
  letter-spacing: 6.5px;
  font-weight: normal;
@@ -1438,6 +1438,12 @@ video {
  /* WH2CC: */
 text-shadow: 0 2px 3px #FFFFFF;
 
+}
+
+.navbar>.container-fluid .navbar-brand {
+
+  padding: 15px 15px 15px 42px;
+font-size: 25px;
 }
 
 .wh2cc:hover {
