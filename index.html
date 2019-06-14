@@ -14,40 +14,41 @@
 
 <body class="container-fluid">
   <div class="row index">
-    <header class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-      <div class="heading">
-        <img class="what" src="public/assets/wh2cc logo.png" alt="">
-      </div>
-    </header>
-    <nav class="nav1 col-xs-8 col-sm-8 col-md-8 col-lg-8">
-      <div class="nav-items">
-        <a data-ui-sref="chocolateMain" class="home">Home</a>
-        <div class="dropdown">
-          <a class="about">About</a>
-          <div class="dropdown-content">
-            <a data-ui-sref="chocolateDirector">Meet the Director</a>
-            <a data-ui-sref="chocolateCharacter">Character Spotlight</a>
-            <a data-ui-sref="chocolateTrailer">Trailer</a>
-            <a data-ui-sref="chocolatePartners">Partners</a>
-          </div>
+
+    <nav class="navbar">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand wh2cc" href="#/home">wh2cc</a>
         </div>
-        <a data-ui-sref="chocolateGallery" class="gallery">Gallery</a>
-        <a data-ui-sref="chocolateContact" class="cont">Contact</a>
-        <a data-ui-sref="chocolateAction" class="take-action">Take Action</a>
-      </div>
-    </nav>
-    <nav class="nav2 hidden-xs hidden-sm hidden-md hidden-lg">
-      <span class="glyphicon glyphicon-menu-hamburger dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"></span>
-      <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-        <li><a data-ui-sref="chocolateMain">Home</a></li>
-        <li><a data-ui-sref="chocolateDirector">Meet the Director</a></li>
-        <li><a data-ui-sref="chocolateCharacter">Character Spotlight</a></li>
-        <li><a data-ui-sref="chocolateTrailer">Trailer</a></li>
-        <li><a data-ui-sref="chocolatePartners">Partners</a></li>
-        <li><a data-ui-sref="chocolateGallery">Gallery</a></li>
-        <li><a data-ui-sref="chocolateContact">Contact</a></li>
-        <li><a data-ui-sref="chocolateAction">Take Action</a></li>
-      </ul>
+    
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse">
+    
+          <ul class="nav navbar-nav navbar-right">
+            <li class="cool"><a href="#/home">Home</a></li>
+            <li class="dropdown cool">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li class="cool"><a href="#/director">Meet the Director</a></li>
+                <li class="cool"><a href="#/character">Character Spotlight</a></li>
+                <li class="cool"><a href="#/trailer">Trailer</a></li>
+              
+                <li class="cool"><a href="#/partners">Partners</a></li>
+              </ul>
+            </li>
+               <li class="cool"><a href="#/gallery">Gallery</a></li>
+               <li class="cool"><a href="#/contact">Contact</a></li>
+               <li class="cool"><a href="#/action">Take Action</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
     </nav>
   </div>
 
