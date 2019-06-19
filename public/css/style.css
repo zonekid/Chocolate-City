@@ -1460,3 +1460,8 @@ color: #F9F9F9;
  float: left;
 
 }*/
+@media only screen and (min-width: 1650px) {
+  .gallerypics {
+    height: 550px;
+  }
+}
