@@ -1,25 +1,25 @@
 @font-face {
-  font-family:"Raleigh Rock";
-  src:url("../assets/Raleigh_Rock.eot") format("eot"),
-      url("../assets/Raleigh_Rock.eot?#iefixed") format("eot"),
-      url("../assets/Raleigh_Rock.woff") format("woff"),
-      url("../assets/Raleigh_Rock.ttf") format("truetype"),
-      url("../assets/Raleigh_Rock.svg#RaleighRock")format("svg");
+  font-family:"RaleighRock";
+  src:url("../assets/RaleighRock.eot") format("eot"),
+      url("../assets/RaleighRock.eot?#iefixed") format("eot"),
+      url("../assets/RaleighRock.woff") format("woff"),
+      url("../assets/RaleighRock.ttf") format("truetype"),
+      url("../assets/RaleighRock.svg")format("svg");
   font-weight:normal;
   font-style:normal;
 }
 
 @font-face {
  font-family:"Futura";
- src: url("public/assets/Futura Condensed Medium.otf");
+ src: url("public/assets/FuturaCondensedMedium.otf");
 }
 
 @font-face {
- font-family:"Dont Melt Drip Regular";
- src:url("../assets/DontMeltDrip-Regular.eot") format("eot"),
-     url("../assets/DontMeltDrip-Regular.woff")format("woff"),
-     url("../assets/DontMeltDrip-Regular.ttf")format("truetype"),
-     url("../assets/DontMeltDrip-Regular.svg")format("svg");
+ font-family:"DontMeltDripRegular";
+ src:url("../assets/DontMeltDripRegular.eot") format("eot"),
+     url("../assets/DontMeltDripRegular.woff")format("woff"),
+     url("../assets/DontMeltDripRegular.ttf")format("truetype"),
+     url("../assets/DontMeltDripRegular.svg")format("svg");
  font-weight:normal;
  font-style:normal;
 }
@@ -95,16 +95,6 @@ background: #7F8596;
  color: #ffffff;
 }
 
-/* 
-.dropdown {
-   position: relative;
-   display: inline-block;
-   font-family: Avenir;
-   font-size: 16px;
-   /*color: #FFFFFF;*/
-   letter-spacing: 1.05px;
-   /* Rectangle 4: */
-} */
 
 
 
@@ -254,7 +244,7 @@ letter-spacing: 0.39px;
 
 .uncovering {
 
- font-family: "Raleigh Rock";
+ font-family: "RaleighRock";
  font-size: 38px;
  line-height:100px;
  color: #000000;
@@ -600,7 +590,7 @@ text-align: center;
 
 .char-name {
  font-size: 34px;
-font-family: "Raleigh Rock";
+font-family: "RaleighRock";
 }
 
 
