@@ -11,18 +11,50 @@
 
 @font-face {
  font-family:"Futura";
- src: url("public/assets/FuturaCondensedMedium.otf");
+ src: url("../assets/FuturaCondensedMedium.otf");
 }
 
 @font-face {
- font-family:"DontMeltDripRegular";
- src:url("../assets/DontMeltDripRegular.eot") format("eot"),
-     url("../assets/DontMeltDripRegular.woff")format("woff"),
-     url("../assets/DontMeltDripRegular.ttf")format("truetype"),
-     url("../assets/DontMeltDripRegular.svg")format("svg");
- font-weight:normal;
- font-style:normal;
+   font-family: AvenirNextRegular;
+   src: url("../assets/AvenirNextRegular08.ttf");
+   font-weight:normal;
 }
+
+@font-face {
+   font-family: AvenirNextItalic;
+   src: url("../assets/AvenirNextItalic05.ttf");
+   font-weight:normal;
+}
+
+@font-face {
+   font-family: AvenirNextMedium;
+   src: url("../assets/AvenirNextMedium06.ttf");
+   font-weight:normal;
+}
+
+@font-face {
+   font-family: AvenirNextUltra;
+   src: url("../assets/AvenirNextUltraLight11.ttf");
+   font-weight:normal;
+}
+
+@font-face {
+   font-family: AvenirLight;
+   src: url("../assets/AvenirLight07.ttf");
+   font-weight:normal;
+}
+
+
+
+@font-face {
+   font-family:"DontMeltDripRegular";
+   src:url("../assets/DontMeltDripRegular.eot") format("eot"),
+       url("../assets/DontMeltDripRegular.woff")format("woff"),
+       url("../assets/DontMeltDripRegular.ttf")format("truetype"),
+       url("../assets/DontMeltDripRegular.svg")format("svg");
+   font-weight:normal;
+   font-style:normal;
+  }
 
 
 .heading{
@@ -77,7 +109,7 @@ background: #7F8596;
 .cool a {
    color: #FFFFFF;
    font-size: 24px;
-   font-family: Avenir;
+   font-family: AvenirNextRegular;
    text-transform: uppercase;
    background: none !important;
 }
@@ -127,7 +159,7 @@ border: 1px solid #212020;
    /* Rectangle 2: */
 border: 2px solid #FFFFFF;
 border-radius: 100px;
-font-family: Avenir;
+font-family: AvenirNextRegular;
 font-size: 20px;
 color: black;
 letter-spacing: 1.05px;
@@ -207,7 +239,7 @@ background: #E27E6F;
 box-shadow: 0 2px 3px 0 rgba(0,0,0,0.50);
 border-radius: 6px;
 /* Buy Ticket: */
-font-family: AvenirNext-Medium;
+font-family: AvenirNextMedium;
 font-size: 14px;
 color: #FFFFFF;
 letter-spacing: 0.39px;
@@ -223,7 +255,7 @@ background: #E27E6F;
 box-shadow: 0 2px 3px 0 rgba(0,0,0,0.50);
 border-radius: 6px;
 /* Buy Ticket: */
-font-family: AvenirNext-Medium;
+font-family: AvenirNextMedium;
 font-size: 14px;
 color: #FFFFFF;
 letter-spacing: 0.39px;
@@ -262,7 +294,7 @@ letter-spacing: 0.39px;
 
 .landing-essay {
    /* What Happened 2 Choc: */
-font-family: Avenir Next;
+font-family: AvenirNextRegular;
 font-size: 20px;
 color: #000000;
 line-height: 30px;
@@ -288,8 +320,8 @@ margin-bottom: 80px;
 }
 
 #chocolate-city {
-font-family: Avenir Next;
-font-style: bold;
+font-family: AvenirNextRegular;
+font-style: normal;
 font-size: 26px;
 }
 
@@ -338,7 +370,7 @@ margin-top:14px
 
 .meet {
  /* MEET THE DIRECTOR: */
- font-family: Avenir;
+ font-family: AvenirNextRegular;
  text-transform: uppercase;
  font-size: 72px;
  color: #F9F9F9;
@@ -355,11 +387,11 @@ margin-left: 270px;
 
 .tae-name {
  /* MIGNOTAE KEBEDE: */
-font-family: AvenirNext-Italic;
+font-family: AvenirNextItalic;
 font-size: 25px;
 color: #000000;
 letter-spacing: 3.2px;
-font-style: italic;
+font-style: normal;
 font-weight: lighter;
 margin-top: 4px;
 padding-left: 50px;
@@ -387,7 +419,7 @@ color: #000000;
    /*margin-top: -210px;*/
    /*text-align: justify;*/
    /* A native Californian: */
-font-family: AvenirNext-Regular;
+font-family: AvenirNextRegular;
 font-size: 16px;
 
 letter-spacing: 0;
@@ -413,7 +445,7 @@ margin-bottom: 20px;
 
 .list-about {
  /* About: */
- font-family: AvenirNext-Regular;
+ font-family: AvenirNextRegular;
  font-size: 25px;
  color: #000000;
  letter-spacing: 3.7px;
@@ -426,7 +458,7 @@ list-style-type: none
 
 .list-rest {
  /* CHARACTER SPOTLIGHT: */
-font-family: AvenirNext-Regular;
+font-family: AvenirNextRegular;
 font-size: 14px;
 letter-spacing: 3.7px;
 padding: 10px;
@@ -434,7 +466,7 @@ list-style-type: none
 }
 
 .list-rest li {
- font-family: AvenirNext-Regular;
+ font-family: AvenirNextRegular;
  padding-bottom: 10px;
  text-transform: uppercase;
  padding-left: 25px;
@@ -452,7 +484,7 @@ font-size: 16px;
 }
 
  .spotlight-title {
-   font-family: Avenir;
+   font-family: AvenirNextRegular;
    font-size: 72px;
    color: #F9F9F9;
    letter-spacing: 6.5px;
@@ -474,7 +506,7 @@ display: flex;
      margin-top: -190px;
      text-align: justify;
      /* A native Californian: */
- font-family: Avenir;
+ font-family: AvenirNextRegular;
  font-size: 16px;
  color: #000000;
  letter-spacing: 0;
@@ -538,7 +570,7 @@ align-items: center;
 
 
 .box .caption {
-  font-family: Avenir;
+  font-family: AvenirNextRegular;
   font-size: .5em;
   background-color: rgba(0,0,0,0.8);
   position: absolute;
@@ -602,7 +634,7 @@ margin-bottom: 170px;
 
 }
 .partners-title {
-   font-family: Avenir;
+   font-family: AvenirNextRegular;
    font-size: 72px;
    color: #F9F9F9;
    letter-spacing: 6.5px;
@@ -624,7 +656,7 @@ margin-bottom: 170px;
 }
 
 .partners-lead{
-font-family: Avenir;
+font-family: AvenirNextRegular;
 /*font-weight: lighter;*/
 font-size: 24px;
 color: #000000;
@@ -633,7 +665,7 @@ margin-top: 50px;
 
 .partnerslist-title {
  /* PARTNERS: */
- font-family: AvenirNext-UltraLight;
+ font-family: AvenirNextUltra;
  font-size: 32px;
  color: #000000;
  letter-spacing: 2.96px;
@@ -693,7 +725,7 @@ margin-left: 260px;
 }
 .interested {
  /* Interested in becomi: */
-font-family: AvenirNext-Regular;
+font-family: AvenirNextRegular;
 font-size: 18px;
 color: #000000;
 letter-spacing: 0.5px;
@@ -706,7 +738,7 @@ margin-top: 70px;
 }
 .donors {
  /* INDIVIDUAL DONORS: */
-font-family: AvenirNext-UltraLight;
+font-family: AvenirNextUltra;
 font-size: 32px;
 color: #000000;
 letter-spacing: 2.96px;
@@ -716,7 +748,7 @@ margin-top: 40px;
 
 .crowd {
  /* Crowdfunding Support: */
-font-family: AvenirNext-Medium;
+font-family: AvenirNextMedium;
 font-size: 18px;
 color: #000000;
 letter-spacing: 1.5px;
@@ -730,7 +762,7 @@ margin-top: -40px;
  list-style-type: none;
  margin-left: -40px;
  /* Loza Dejene LucyRose: */
-font-family: AvenirNext-UltraLight;
+font-family: AvenirNextUltra;
 font-size: 18px;
 color: #000000;
 /*text-decoration: underline;*/
@@ -739,7 +771,7 @@ color: #000000;
  list-style-type: none;
  margin-left: 150px;
  /* Loza Dejene LucyRose: */
-font-family: AvenirNext-UltraLight;
+font-family: AvenirNextUltra;
 font-size: 18px;
 color: #000000;
 /*text-decoration: underline;*/
@@ -792,7 +824,7 @@ margin-top: 60px;
 
 .become {
  /* BECOME A PARTNER: */
-font-family: Avenir-light;
+font-family: AvenirLight;
 font-size: 32px;
 color: #000000;
 letter-spacing: 2.96px;
@@ -801,7 +833,7 @@ margin-top: 50px;
 
 .if-you {
  /* If you would like to: */
-font-family: Avenir-light;
+font-family: AvenirLight;
 font-size: 18px;
 color: #000000;
 letter-spacing: 1.66px;
@@ -832,7 +864,7 @@ padding-bottom: 80px;
 }
 
 .take {
-   font-family: Avenir;
+   font-family: AvenirNextRegular;
    font-weight: lighter;
    font-size: 72px;
    color: white;
@@ -859,7 +891,7 @@ bottom: 490px;
 left: 620px;
 font-size: 30px;
 /* JOIN US: */
-font-family: Avenir;
+font-family: AvenirNextRegular;
 color: #FFFFFF;
 letter-spacing: 2px;
 width: 200px;
@@ -872,7 +904,7 @@ width: 200px;
 
 .inception {
    /* From its inception,: */
-font-family: Avenir;
+font-family: AvenirNextRegular;
 font-size: 23px;
 color: #000000;
 letter-spacing: 1px;
@@ -905,7 +937,7 @@ text-align: center;
 }
 .your-donations {
    /* Your donations will: */
-font-family: Avenir;
+font-family: AvenirNextRegular;
 font-size: 20px;
 color: #000000;
 letter-spacing: 1px;
@@ -968,7 +1000,7 @@ display: block;
 
 .join-us {
    /* Rectangle 5 Copy 2: */
-font-family: Avenir;
+font-family: AvenirNextRegular;
 background: #000000;
 border: 3px solid #000000;
 border-radius: 100px;
@@ -1060,7 +1092,7 @@ font-size: 28px;
 
 
 .gallery-title1 {
-   font-family: Avenir;
+   font-family: AvenirNextRegular;
    font-size: 72px;
    color: #F9F9F9;
    letter-spacing: 6.5px;
@@ -1244,7 +1276,7 @@ letter-spacing: 0.36px;
 }
 
 .contactbody p {
- font-family: AvenirNext-Regular;
+ font-family: AvenirNextRegular;
  font-size: 22px;
  color: #4A4A4A;
  letter-spacing: 0;
@@ -1252,7 +1284,7 @@ letter-spacing: 0.36px;
 .contactinfo li {
 
  /* For any information: */
-font-family: AvenirNext-Regular;
+font-family: AvenirNextRegular;
 font-size: 22px;
 color: #4A4A4A;
 letter-spacing: 0;
@@ -1266,7 +1298,7 @@ letter-spacing: 0;
  text-decoration: underline;
 }
 .forany2 {
- font-family: AvenirNext-Regular;
+ font-family: AvenirNextRegular;
  font-size: 22px;
  color: #4A4A4A;
  letter-spacing: 0;
@@ -1295,7 +1327,7 @@ align-items: center;
 
 .contact-us2 {
 
-       font-family: Avenir;
+       font-family: AvenirNextRegular;
        font-size: 72px;
        font-weight: lighter;
        color: white;
@@ -1308,7 +1340,7 @@ align-items: center;
 .submit {
 
 margin-top: 30px;
-font-family: Avenir;
+font-family: AvenirNextRegular;
 font-size: 20px;
 color: #FFFFFF;
 letter-spacing: 2px;
@@ -1321,7 +1353,7 @@ text-transform: uppercase;
 
 .submit2 {
  margin-top: 30px;
- font-family: Avenir;
+ font-family: AvenirNextRegular;
  font-size: 20px;
  color: #FFFFFF;
  letter-spacing: 2px;
@@ -1349,7 +1381,7 @@ text-transform: uppercase;
 }
 
 .trailer-title {
- font-family: Avenir;
+ font-family: AvenirNextRegular;
  text-transform: uppercase;
  font-size: 72px;
  color: #F9F9F9;
@@ -1364,7 +1396,7 @@ margin-left: 480px;
 }
 
 .soon {
- font-family: AvenirNext;
+ font-family: AvenirNextRegular;
  font-size: 50px;
  color: #000000;
  letter-spacing: 3.2px;
@@ -1397,7 +1429,7 @@ video {
 
 
 .wayne-title {
- font-family: Avenir;
+ font-family: AvenirNextRegular;
  font-size: 72px;
  color: #F9F9F9;
  letter-spacing: 6.5px;
@@ -1407,7 +1439,7 @@ video {
 }
 
 .wayne-title2 {
- font-family: Avenir;
+ font-family: AvenirNextRegular;
  font-size: 72px;
  color: #F9F9F9;
  letter-spacing: 6.5px;
@@ -1419,7 +1451,7 @@ video {
 }
 
 .wh2cc {
- font-family: Avenir;
+ font-family: AvenirNextRegular;
  font-size: 25px;
  color: #F9F9F9;
  letter-spacing: 6.5px;
