@@ -1037,7 +1037,7 @@ font-size: 28px;
 
 .gallerypics {
 
- height: 402px;
+ height: 387px;
  padding: 5px;
 
 
@@ -1441,21 +1441,21 @@ color: #F9F9F9;
 
 @media (max-width: 1680.98px) { 
    .gallerypics {
-   height: 382px;
+   height: 332px;
    }
    
     }
 
     @media (max-width: 1400.98px) { 
       .gallerypics {
-      height: 362px;
+      height: 322px;
       }
       
        }
 
 @media (max-width: 1199.98px) { 
    .gallerypics {
-   height: 362px;
+   height: 332px;
    }
    
     }
